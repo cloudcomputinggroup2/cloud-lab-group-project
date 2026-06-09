@@ -39,7 +39,3 @@ the placeholder names with your group's real details before submitting.
 5. Select the branch that contains the site files, usually `main`.
 6. Set the folder to `/root` and save.
 7. Wait for GitHub Pages to publish the site.
-
-## Notes
-
-This project uses plain HTML, CSS, and JavaScript and should work as a static GitHub Pages site.
