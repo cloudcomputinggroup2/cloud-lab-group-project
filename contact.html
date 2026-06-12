@@ -1,82 +1,77 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Cloud Lab Group Project Group 2 | Contact</title>
-    <meta
-      name="description"
-      content="Contact page for the campus lost-and-found website project."
-    />
-    <link rel="stylesheet" href="style.css" />
-    <script defer src="script.js"></script>
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="brand">
-        <p class="eyebrow">Course Project</p>
-        <h1>Cloud Lab Group Project</h1>
-      </div>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-        Menu
-      </button>
-      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html" aria-current="page">Contact</a>
-      </nav>
-    </header>
 
-    <main>
-      <section class="card stack">
-        <p class="eyebrow">Contact</p>
-        <h2>How to report an item or reach the group</h2>
-        <p>
-          Use the form below to show how a student could ask about a lost item, report something
-          found, or contact the group about the project.
-        </p>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cloud Lab Group Project Group 2 | Contact</title>
+  <meta name="description" content="Contact page for the campus lost-and-found website project." />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
 
-        <form class="contact-form" action="https://formspree.io/f/xwvjbjky" method="POST">
-          <input type="hidden" name="_subject" value="Lost-and-Found report" />
-          <label>
-            Your Name
-            <input type="text" name="name" placeholder="Enter your name" required />
-          </label>
-          <label>
-            Email Address
-            <input type="email" name="email" placeholder="Enter your email" required />
-          </label>
-          <label>
-            Message
-            <textarea
-              name="message"
-              rows="5"
-              placeholder="Describe the item, location, and date"
-              required
-            ></textarea>
-          </label>
-          <button class="button primary" type="submit">Submit Report</button>
-        </form>
-      </section>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <p class="eyebrow">Course Project</p>
+      <h1>Cloud Lab Group Project</h1>
+    </div>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      Menu
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </header>
 
-      <section class="card contact-details">
-        <article>
-          <h3>Repository</h3>
-          <p>cloud-lab-group-project</p>
-        </article>
-        <article>
-          <h3>Suggested Use</h3>
-          <p>Post found items, report missing belongings, and contact the campus desk.</p>
-        </article>
-        <article>
-          <h3>GitHub Pages</h3>
-          <p>[Add Pages URL after deployment]</p>
-        </article>
-      </section>
-    </main>
+  <main>
+    <section class="card stack">
+      <p class="eyebrow">Contact</p>
+      <h2>How to report an item or reach the group</h2>
+      <p>
+        Use the form below to show how a student could ask about a lost item, report something
+        found, or contact the group about the project.
+      </p>
 
-    <footer class="site-footer">
-      <p>&copy; <span id="year"></span> Cloud Lab Group Project</p>
-    </footer>
-  </body>
+      <form class="contact-form" action="https://formspree.io/f/xwvjbjky" method="POST">
+        <input type="hidden" name="_subject" value="Lost-and-Found report" />
+        <label>
+          Your Name
+          <input type="text" name="name" placeholder="Enter your name" required />
+        </label>
+        <label>
+          Email Address
+          <input type="email" name="email" placeholder="Enter your email" required />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="5" placeholder="Describe the item, location, and date" required></textarea>
+        </label>
+        <button class="button primary" type="submit">Submit Report</button>
+      </form>
+    </section>
+
+    <section class="card contact-details">
+      <article>
+        <h3>Repository</h3>
+        <p>cloud-lab-group-project</p>
+      </article>
+      <article>
+        <h3>Suggested Use</h3>
+        <p>Post found items, report missing belongings, and contact the campus desk.</p>
+      </article>
+      <article>
+        <h3>GitHub Pages</h3>
+        <p><a href="https://cloudcomputinggroup2.github.io/cloud-lab-group-project/">cloud-lab-group-project</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Cloud Lab Group Project</p>
+  </footer>
+</body>
+
 </html>
